@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 0;
+	padding: 0;
+}
+
+
+nav > .nav {
+	display: inline-block;
+	text-align: right;
+	margin-right: 1%;
+}
+
+.banner {
+	background-image: url("../img/banner1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 900px;
+}
+
+.banner > .box > h1 {
+	margin: 0 auto;
+	font-family: 'Josefin Slab', serif;
+	font-size: 3.2em;
+}
+
+.box {
+	text-align: center;
+	width: 40%;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.banner > .box > p {
+	font-family: 'Josefin', Sans-serif;
+	font-size: 2em;
+}
+

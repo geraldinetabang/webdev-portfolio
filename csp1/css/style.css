@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.nav {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	padding: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.container-fluid {
+	margin-bottom: 0;
+}
+
+body {
+	box-sizing: border-box;
+/*	background-image: url("../img/starrynight.jpg");
+*/
+	background-color: black;	
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 80%;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+}
+
+.header img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: yellow;
+}
+
+.well,
+.btn, {
+	border-radius: 0;
+}
+
+.well {
+	background-color: rgba(0, 1, 0, 0.3);
+}
+
+.well > h2 {
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.media-body > p {
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.media > .media-center > img {
+	width: 5%;
+}
+
+h3 {
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.form-group {
+	color: yellow;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+
